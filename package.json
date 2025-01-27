@@ -1,22 +1,19 @@
 {
-  "name": "my-vue-app",
+  "name": "histedu",
   "version": "1.0.0",
-  "description": "A single page web app built with Vue.js",
-  "main": "src/main.js",
+  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "pinia": "^2.3.1",
     "vue": "^3.0.0",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.0.0",
+    "pinia": "^2.0.0"
   },
   "devDependencies": {
-    "@vue/cli-service": "^5.0.8",
-    "@vue/compiler-sfc": "^3.0.0"
-  },
-  "author": "",
-  "license": "MIT"
+    "@vue/cli-service": "^4.5.0",
+    "serve": "^11.3.2"
+  }
 }
